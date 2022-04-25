@@ -1,11 +1,17 @@
 <template>
-  <Tutorial/>
+  <div>
+    <blog-header />
+
+    <blog-footer />
+  </div>
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
+import Vue from "vue";
+import blogFooter from "~/components/blogFooter.vue";
 
 export default Vue.extend({
-  name: 'IndexPage'
-})
+  components: { blogFooter },
+  name: "IndexPage",
+});
 </script>
