@@ -11,7 +11,7 @@
 
       <div
         class="fb-comments"
-        :data-href="`https://blog.underdev.io/${$nuxt.$route.path}`"
+        :data-href="`https://www.instagram.com/viniciuspretto.paulo/`"
         data-width="100%"
         data-numposts="5"
       ></div>
@@ -25,24 +25,14 @@ import Vue from "vue";
 
 const authors = [
   {
-    username: "lhas",
-    name: "Luiz Almeida",
-    description:
-      "Desenvolvedor de software há 11 anos, especializado em construir soluções criativas para problemas do mundo real.",
-    image: "https://avatars.githubusercontent.com/u/41020086",
-    github: "https://www.github.com/lhas-dev/",
-    instagram: "https://www.instagram.com/lhas_dev/",
-    linkedin: "https://www.linkedin.com/in/luizhrqas/",
-  },
-  {
     username: "pvinig",
     name: "Vinicius Pretto",
     description:
       "Desenvolvedor back-end, trabalha com Node.js e as vezes com C++ por diversão no Arduino.",
     image: "https://avatars.githubusercontent.com/u/83087064",
     github: "https://github.com/pvinig",
-    instagram: "https://www.instagram.com/lhas_dev/",
-    linkedin: "https://www.linkedin.com/in/luizhrqas/",
+    instagram: "https://www.instagram.com/viniciuspretto.paulo/",
+    linkedin: "https://www.linkedin.com/in/viniciuspretto/",
   },
 ];
 export default Vue.extend({
@@ -60,12 +50,12 @@ export default Vue.extend({
   },
   head(): any {
     return {
-      title: `${this.post.title} | Underdev Blog`,
+      title: `${this.post.title} | pvini blog`,
       meta: [
         {
           hid: "og:title",
           name: "og:title",
-          content: `${this.post.title} | Underdev Blog`,
+          content: `${this.post.title} | pvini blog`,
         },
         {
           hid: "og:description",
@@ -80,14 +70,14 @@ export default Vue.extend({
         {
           hid: "og:image",
           name: "og:image",
-          content: "https://blog.underdev.io/og_image.png",
+          content: "a",
         },
       ],
     };
   },
   computed: {
     author(): any {
-      const value = this.post.author || "lhas";
+      const value = this.post.author || "pvinig";
       const author = authors.find((item) => item.username === value);
 
       return author;

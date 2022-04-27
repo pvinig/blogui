@@ -59,29 +59,12 @@ export default {
   },
   head() {
     return {
-      title: "Underdev Blog | Programação + Conhecimento",
+      title: "pvini blog",
       meta: [
         {
           hid: "og:title",
           name: "og:title",
-          content: "Underdev Blog | Programação + Conhecimento",
-        },
-        {
-          hid: "og:description",
-          name: "og:description",
-          content:
-            "Este é o blog da Underdev. Aqui, os integrantes da Underdev compartilham uma série de artigos sobre: tecnologia, programação, entre outros.",
-        },
-        {
-          hid: "description",
-          name: "description",
-          content:
-            "Este é o blog da Underdev. Aqui, os integrantes da Underdev compartilham uma série de artigos sobre: tecnologia, programação, entre outros.",
-        },
-        {
-          hid: "og:image",
-          name: "og:image",
-          content: "https://blog.underdev.io/og_image.png",
+          content: "posts do pviniblog",
         },
       ],
     };
