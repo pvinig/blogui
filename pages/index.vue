@@ -11,7 +11,6 @@
 </template>
 
 <script lang="ts">
-import Vue from "vue";
 export default {
   name: "IndexPage",
   async asyncData({ $content, error }: any) {
@@ -60,7 +59,7 @@ export default {
   },
   head() {
     return {
-      title: "Underdev Blog | Programação + Conhecimento",
+      title: "pvini blog",
       meta: [
         {
           hid: "og:title",
