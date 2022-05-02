@@ -51,6 +51,7 @@ export default {
   padding: 15px;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   font-family: "Hind";
+  background: #b9030f;
 
   p {
     font-weight: 300;

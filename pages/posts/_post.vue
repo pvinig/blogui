@@ -92,6 +92,7 @@ export default Vue.extend({
 <style lang="postcss">
 .blog-post {
   padding: 20px;
+  color: #70160e;
 
   img {
     margin: 0 auto;

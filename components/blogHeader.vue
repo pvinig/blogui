@@ -27,7 +27,7 @@ export default {
 <style lang="postcss" scoped>
 .blog-header {
   width: 100%;
-  background: #e1e3db;
+  background: #b9030f;
   box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.09);
   padding: 15px;
   margin-bottom: 10px;

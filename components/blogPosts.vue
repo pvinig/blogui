@@ -25,6 +25,7 @@ export default {
 <style lang="postcss" scoped>
 .blog-posts {
   list-style: none;
+  color: #70160e;
 
   @media (min-width: 992px) {
     max-width: 1200px;
@@ -36,7 +37,7 @@ export default {
   display: block;
   padding: 20px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  color: #222;
+  background: #e1e3db;
   text-decoration: none;
   font-family: "Hind";
   transition: all 0.15s ease-in;
