@@ -17,5 +17,5 @@ $ npm run start
 $ npm run generate
 ```
 
-this little project is a simple blog application, with pagination and tag classifications.
-i code this blog wanting to learn Vue.js, so i din't create a db for project hehehe
+this little project is a blog application, with pagination and tag classifications.
+i code this blog wanting to learn Vue.js, so i din't create a db for project hehehe.
